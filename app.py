@@ -338,7 +338,7 @@ elif page == "Stock Data":
     st.subheader("📊 Descriptive Statistics")
 
     st.dataframe(
-        df.describe(numeric_only=True),
+        df.describe(),
         use_container_width=True
     )
 
